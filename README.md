@@ -1,6 +1,6 @@
-## STDGET - A User-Friendly C String Input Library
+## GETSTR - A User-Friendly C String Input Library
 #### Overview 🚀
-The stdget library provides a simple yet robust set of functions for acquiring string input from the user in C programming. Designed to be more user-friendly than standard C input functions, `stdget` offers a dynamic `getstrf()` function that supports printf-like formatting for prompts and automatically handles dynamic memory allocation for user input.
+The getstr library provides a simple yet robust set of functions for acquiring string input from the user in C programming. Designed to be more user-friendly than standard C input functions, `getstr` offers a dynamic `getstrf()` function that supports printf-like formatting for prompts and automatically handles dynamic memory allocation for user input.
 #### Features ✨
  * **Formatted Prompts:** Display prompts to the user using familiar printf-style format strings.
  * **Dynamic Input Buffer:** Automatically expands the input buffer to accommodate strings of any length, preventing buffer overflows.
@@ -9,11 +9,11 @@ The stdget library provides a simple yet robust set of functions for acquiring s
  * **Simplified String Type:** Introduces a `str` type alias for `char *` for enhanced readability.
 
 ### Installation 🛠️
-To use the `stdget` library in your C projects, follow these steps to compile it into a static library (`.a` file) and link it with your applications.
+To use the `getstr` library in your C projects, follow these steps to compile it into a static library (`.a` file) and link it with your applications.
 
 **1. Download the Library Files 📥**
 
-Download the latest version of the stdget library header (`getstr.h`) and source (`getstr.c`) files from the official GitHub repository: [GITHUB/LIBGETSTR](https://github.com/codebysumit/libgetstr/tree/master/src) 
+Download the latest version of the `getstr` library header (`getstr.h`) and source (`getstr.c`) files from the official GitHub repository: [GITHUB/LIBGETSTR](https://github.com/codebysumit/libgetstr/tree/master/src) 
 
 Make sure both `getstr.h` and `getstr.c` are placed in the same directory.
 
@@ -56,7 +56,7 @@ Copy the `getstr.h` header file to the `include` directory. Move the static libr
 
 **5. Compile Your Application with the Library 💻**
 
-When compiling your application (`your_application.c` in the example above) that uses `stdget`, you need to tell the compiler where to find the header files and the library file.
+When compiling your application (`your_application.c` in the example above) that uses `getstr`, you need to tell the compiler where to find the header files and the library file.
 
 ```bash
 gcc -I./include -L./lib your_application.c -o your_application -lgetstr
