@@ -146,4 +146,4 @@ Contributions are welcome! If you find bugs, have suggestions for improvements, 
 
 For any questions or feedback, please reach out to the project maintainer:
  * Project Maintainer 👨‍💻: Sumit Das
- * Email ✉️: [codebysumitdas@gmail.com](mailto:codebysumit@gmail.com)
+ * Email ✉️: [codebysumit@gmail.com](mailto:codebysumit@gmail.com)
